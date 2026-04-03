@@ -1,75 +1,54 @@
-# Hen Skills: UI and UX
+# Hen Skills
 
-This repository collects 22 Codex skills focused on interface design, UX quality, frontend direction, onboarding, copy, and design-system work.
+Repositorio de skills UI/UX para Codex.
 
-Each skill folder contains:
+## Formato
 
-- `SKILL.md`: the source instructions used by Codex
-- `README.md`: a short human-readable summary
+Cada skill se mantiene en el formato nativo de Codex:
 
-Some skills may also include supporting reference files.
+```text
+skill-name/
+  SKILL.md
+  reference/   # opcional
+```
 
-## Install
+No hay documentacion por skill fuera de `SKILL.md`. El catalogo se documenta solo desde este `README.md`.
 
-1. Copy one or more skill folders into `~/.codex/skills/`.
-2. Restart Codex so the new skills are loaded.
+## Instalacion
 
-## Skill Groups
+1. Copia la carpeta de la skill que quieras a `~/.codex/skills/`.
+2. Reinicia Codex para que cargue las nuevas skills.
 
-### Core UI Workflow
+## Skills Incluidas
 
-- `frontend-design`: build distinctive, production-grade UI
-- `redesign-ui`: upgrade an existing UI in place
-- `normalize`: bring a feature back to the product design system
-- `polish`: run a final ship pass for layout and interaction issues
-- `extract`: consolidate reusable UI patterns and tokens
-- `stitch-design-system`: generate `DESIGN.md` guidance for Stitch
-- `teach-impeccable`: persist project-specific design context
+### Base
 
-### UI Direction and Visual Character
-
-- `bolder`: increase hierarchy and presence
-- `quieter`: reduce visual aggression without losing clarity
-- `colorize`: introduce strategic color
-- `animate`: add meaningful motion and micro-interactions
-- `delight`: add memorable and playful touches
-- `distill`: simplify to the essential
-- `premium-soft`: apply a soft premium direction
-- `editorial-minimal`: apply an editorial minimal direction
-- `industrial-brutalist`: apply a rigid industrial/brutalist direction
-
-### UX and Product Quality
-
-- `adapt`: adapt experiences to new devices or contexts
-- `audit`: audit accessibility, performance, and responsive quality
-- `clarify`: improve UX copy and instructions
-- `critique`: perform a high-signal design critique
-- `onboard`: improve onboarding and empty states
-- `harden`: strengthen edge cases and resilience
-- `optimize`: improve frontend performance
-
-## Included Skills
-
-- `adapt`
-- `animate`
-- `audit`
-- `bolder`
-- `clarify`
-- `colorize`
-- `critique`
-- `delight`
-- `distill`
-- `editorial-minimal`
-- `extract`
 - `frontend-design`
-- `harden`
-- `industrial-brutalist`
-- `normalize`
-- `onboard`
-- `optimize`
-- `polish`
-- `premium-soft`
-- `quieter`
 - `redesign-ui`
+- `normalize`
+- `polish`
+- `extract`
 - `stitch-design-system`
 - `teach-impeccable`
+
+### UI
+
+- `bolder`
+- `quieter`
+- `colorize`
+- `animate`
+- `delight`
+- `distill`
+- `premium-soft`
+- `editorial-minimal`
+- `industrial-brutalist`
+
+### UX
+
+- `adapt`
+- `audit`
+- `clarify`
+- `critique`
+- `onboard`
+- `harden`
+- `optimize`
